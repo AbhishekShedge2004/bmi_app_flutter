@@ -14,6 +14,7 @@ class _BMIState extends State<BMI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey,
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: Text("BMI Calculator"),
